@@ -49,6 +49,51 @@ Section 5 adds requirements on top of Section 4. It does not replace Section 4.
 3. Propose a change to AGENTS.md itself when a rule no longer fits the project, or
    when a new recurring task needs its own section.
 
+## Adding AGENTS.md to a Repository
+
+1. Copy [AGENTS.md](AGENTS.md) to the root directory of the target repository.
+2. Do not rename the file. A coding agent looks for the exact name `AGENTS.md`.
+3. Do not add a second copy in a subdirectory unless that subdirectory needs rules
+   that differ from the root file. Most coding agents read the nearest AGENTS.md
+   above the file they edit.
+4. Remove any section that does not apply to the target repository (for example,
+   Section 5 if the repository does not host GeoLab notebooks).
+5. Commit the file to version control so every contributor and agent sees the same
+   rules.
+
+## Using AGENTS.md to Write a GeoLab Notebook
+
+1. Open Section 5, GeoLab Notebook Conventions, in [AGENTS.md](AGENTS.md).
+2. Start the notebook from the
+   [GeoLab Notebook template](https://github.com/EarthScope/GeoLab-learning-hub/blob/main/templates/GeoLab_Notebook_template.ipynb).
+3. Build the notebook's structure in the order Section 5 lists: Title cell,
+   Metadata cell, Introduction, Learning Objectives, Relevant Documentation &
+   Resources, Contents, then the numbered workflow sections.
+4. Apply the Markdown style rules in Section 5 (heading levels, list markers,
+   inline code, blockquotes) as you write each cell.
+5. Apply the general notebook conventions in Section 4 (cell isolation, state
+   management, execution guardrails) to every code cell.
+6. Consult the
+   [GeoLab Notebook Design Guide](https://docs.google.com/document/d/1VCtblHHW_laPqAx-R92_aKZdFRCflLrIMCl8tos4qZg/edit?tab=t.0)
+   for writing guidance beyond the structural rules in Section 5.
+7. Complete the "Before publishing a GeoLab notebook" checklist in Section 5 before
+   you propose the notebook for publishing.
+
+## Using AGENTS.md to Write Documentation
+
+1. Open Section 1, Writing Documentation (ASD-STE100 Compliance), in
+   [AGENTS.md](AGENTS.md).
+2. Write each sentence to the sentence construction rules in Section 1: one idea per
+   sentence, active voice, imperative mood for procedure steps, no contractions.
+3. Check your vocabulary against the rules in Section 1: one approved term per
+   concept, no vague qualifiers, "can" for capability, "must" for a requirement.
+4. Structure the document with the rules in Section 1: numbered steps for a
+   procedure, tables for a comparison, a plain-noun or imperative heading.
+5. Define every acronym or product-specific term on its first use in the document.
+6. If you edit an existing document, apply the "When editing existing docs" rules in
+   Section 1: preserve heading anchors, leave code blocks unchanged, and flag mixed
+   STE and non-STE prose instead of silently leaving it.
+
 ## Relationship to Other Documentation
 
 AGENTS.md states conventions for this repository. It does not replace the
