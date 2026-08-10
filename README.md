@@ -53,4 +53,6 @@ Section 5 adds requirements on top of Section 4. It does not replace Section 4.
 
 AGENTS.md states conventions for this repository. It does not replace the
 [GeoLab Notebook template](https://github.com/EarthScope/GeoLab-learning-hub/blob/main/templates/GeoLab_Notebook_template.ipynb),
-which defines the required structure for a GeoLab tutorial notebook.
+which defines the required structure for a GeoLab tutorial notebook, or the
+[GeoLab Notebook Design Guide](https://docs.google.com/document/d/1VCtblHHW_laPqAx-R92_aKZdFRCflLrIMCl8tos4qZg/edit?tab=t.0),
+which gives additional writing guidance for GeoLab notebooks.

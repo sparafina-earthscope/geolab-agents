@@ -193,8 +193,10 @@ Apply these conventions whenever a task involves creating or editing a `.ipynb` 
 
 Notebooks written for the GeoLab learning hub must follow the structure defined in
 the [GeoLab Notebook template](https://github.com/EarthScope/GeoLab-learning-hub/blob/main/templates/GeoLab_Notebook_template.ipynb).
-Start every new GeoLab tutorial notebook from this template. These rules add to the
-general notebook conventions in Section 4; they do not replace them.
+Start every new GeoLab tutorial notebook from this template. Consult the
+[GeoLab Notebook Design Guide](https://docs.google.com/document/d/1VCtblHHW_laPqAx-R92_aKZdFRCflLrIMCl8tos4qZg/edit?tab=t.0)
+for additional writing guidance. These rules add to the general notebook
+conventions in Section 4; they do not replace them.
 
 ### Required structure
 
